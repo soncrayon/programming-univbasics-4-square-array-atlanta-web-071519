@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  squares = []
+  i = 0 
+  while array[i] do
+    new_square = array[i]**2 
+    squares.push(new_square)
+  end 
+  return squares
 end
